@@ -6,3 +6,16 @@ main{max-width:860px;margin:0 auto;padding:1.5rem}
 .card{background:#fff;border:1px solid #ddd;border-radius:8px;padding:1rem}
 .note{font-size:.9rem;color:#555;background:#fff;border-left:4px solid #2f5d50;padding:.5rem 1rem}
 footer{font-size:.85rem;text-align:center}
+table{width:100%;border-collapse:collapse;margin:1rem 0;background:#fff;font-size:.95rem}
+th,td{border:1px solid #ddd;padding:.65rem .8rem;vertical-align:top;text-align:left;word-break:keep-all;overflow-wrap:anywhere;line-break:strict;hyphens:none}
+th{background:#eef5f2;font-weight:600}
+@media (max-width:640px){
+  main{padding:1rem}
+  table{font-size:.9rem}
+  thead{display:none}
+  table,tbody,tr,td{display:block;width:100%;box-sizing:border-box}
+  tr{margin:0 0 .75rem;border:1px solid #ddd;border-radius:8px;background:#fff;overflow:hidden}
+  td{border:none;border-bottom:1px solid #eee;padding:.55rem .85rem}
+  td:last-child{border-bottom:none}
+  td:first-child{background:#eef5f2;font-weight:600}
+}
